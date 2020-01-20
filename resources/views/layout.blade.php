@@ -21,6 +21,7 @@
 
                 <nav class="navbar__nav">
                     <a href="{{route('project.index')}}">Projects</a>
+                    @include('project.assign')
                 </nav>
             </div>
         </header>

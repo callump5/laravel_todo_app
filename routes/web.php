@@ -15,5 +15,6 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/projects', 'ProjectController@index')->name('project.index');
 Route::post('/projects', 'ProjectController@store')->name('project.store');
+Route::post('/projects/assign', 'ProjectController@store_project_user_assignment')->name('project.store_project_user_assignment');
 Route::get('/projects/create', 'ProjectController@create')->name('project.create');
 Route::get('/projects/{project}', 'ProjectController@show')->name('project.show');

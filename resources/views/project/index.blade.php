@@ -6,6 +6,7 @@ Project Dashboard
 
 @section('dashboard-buttons')
 <a href="{{route('project.create')}}">Add Project</a>
+<a href="{{route('project.create')}}">Unassigned - {{$unsigned }}</a>
 @endsection
 
 

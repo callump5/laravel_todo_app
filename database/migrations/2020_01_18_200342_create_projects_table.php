@@ -20,6 +20,7 @@ class CreateProjectsTable extends Migration
             $table->text('description');
             $table->string('due_date');
             $table->boolean('completed');
+            $table->boolean('assigned');
         });
     }
 

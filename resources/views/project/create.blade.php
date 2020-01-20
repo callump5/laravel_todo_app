@@ -17,7 +17,7 @@ Create A Project
 
     <div class="field">
         <label for="title">Project Title</label>
-        <input id="title" type="title" name="title" required>
+        <input id="title" type="text" name="title" required>
     </div>
 
 
