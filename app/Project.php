@@ -11,8 +11,6 @@ class Project extends Model
     static function get_project_assigned_users($project){
         
     }
-
-
     static function check_unsigned(){
         $projects = Project::all();
         $unassigned_projects = Project::where('assigned', '0')->get();

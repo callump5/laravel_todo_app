@@ -21,7 +21,6 @@
 
                 <nav class="navbar__nav">
                     <a href="{{route('project.index')}}">Projects</a>
-                    @include('project.assign')
                 </nav>
             </div>
         </header>
@@ -36,6 +35,7 @@
 
                 <div class="dashboard__control__buttons">
                     @yield('dashboard-buttons')
+                    @include('project.assign')
                 </div>
             </div>
              <div class="dashboard">

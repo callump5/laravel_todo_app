@@ -64,6 +64,11 @@ class ProjectController extends Controller
 
         $pa->save();
 
+        $sp = Project::find(request('project_id'));
+        $sp->assigned = 1;
+        $sp->save();
+
+
         return redirect('/projects');
 
     }
